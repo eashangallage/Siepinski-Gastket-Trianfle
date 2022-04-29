@@ -20,7 +20,7 @@ def DrawSierpinskiTriangle(iteration):
 i = int(input("Enter the number of iteration: "))
 num_tri = 3**(i-1) if i > 1 else 1
 num_ver = (3 + sum(3**(n) for n in range(1,i))) if i > 1 else 3
-print('Number of Triangles = {},Number of Vertices = {}'.format(num_tri,num_ver)) 
+print('Number of Triangles = {},Number of Nodes = {}'.format(num_tri,num_ver)) 
 plt.figure()
 DrawSierpinskiTriangle(i)
 plt.show()
