@@ -1,1 +1,1 @@
-# Siepinski-Gastket-Triangl
+# Sierpinski-Gasket-Triangle
